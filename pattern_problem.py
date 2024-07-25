@@ -19,7 +19,7 @@ def dec_triangle(n):
 
         print()
 
-def next(n):
+
     for i in range(n):
         for j in range(i,n):
             print("",end = " ") 
@@ -38,7 +38,8 @@ def next(n):
         for k in range(i,n):
             print("*",end="")
 
-
+        for o in range(i,n-1):
+            print("*",end="")
         print()
 
-next(n)
+next(5)
